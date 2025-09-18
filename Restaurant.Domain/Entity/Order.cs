@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Restaurant.Domain.Entity
 {
-    internal class Order
+    public class Order
     {
     }
 }
