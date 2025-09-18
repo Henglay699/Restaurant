@@ -10,7 +10,7 @@ namespace Restaurant.Domain
             
         }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; } //1
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
